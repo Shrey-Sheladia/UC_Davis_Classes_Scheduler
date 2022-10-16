@@ -5,7 +5,7 @@ import time
 import telebot
 import pprint
 from threading import Thread
-from getVacancyNew import *
+from utils import *
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -13,8 +13,15 @@ pp = pprint.PrettyPrinter(indent=4)
 with open('Final_Sorted_Schedule.json') as json_file1:
     SCHEDULE = json.load(json_file1)
 
-with open('userDictionary.json') as json_file2:
-    userDict = json.load(json_file2)
+try:
+    with open('userDictionary.json') as json_file2:
+        userDict = json.load(json_file2)
+except FileNotFoundError:
+    f = open("userDictionary.json", "x")
+    f.write("{}")
+    f.close()
+    with open('userDictionary.json') as json_file2:
+        userDict = json.load(json_file2)
 
 
 
@@ -43,7 +50,8 @@ for i in range(len(halls)):
 
 
 # API_KEY = "5162485703:AAFzHyu3XWOr8AJ6iAmVdt9YHC7DbxQW0YI" #! Raspberry PI
-API_KEY = "5142393526:AAHHUyULXlqobU-ofPZK40pvjnigcX8lh9g" #! Sec Sys
+# API_KEY = "5142393526:AAHHUyULXlqobU-ofPZK40pvjnigcX8lh9g" #! Sec Sys
+API_KEY = "5791318143:AAF2Nt9UP3tTApNv0gsueL2tALpS_WAeiGM" #! Classroom Search
 
 CHAT_ID = 1376498188
 bot = telebot.TeleBot(API_KEY)
@@ -88,6 +96,7 @@ help - Get Help
 get_current - Get a list of ongoing classes in the selected hall.
 get_vacancy - Get a list of current vacant rooms in selected hall.
 get_schedule - Get daily schedule for any room in selected hall.
+set_day - Change the day of the week
 
 '''
 @bot.message_handler(commands=["start", "help"])
@@ -97,18 +106,24 @@ def start(message):
         userDict[str(message.chat.id)] = {}
         if message.chat.username:
             usrnm = message.chat.username
+            print(usrnm)
         else:
             usrnm = message.chat.first_name + " " + message.chat.last_name
             print("Not found")
         userDict[str(message.chat.id)]["Username"] = usrnm
+        userDict[str(message.chat.id)]["Mode"] = ""
         bot.send_message(CHAT_ID, f"User {usrnm} added")
         
         with open('userDictionary.json', 'w') as outfile:
             json.dump(userDict, outfile)
+
     userDict[str(message.chat.id)]["Username"] = message.chat.username
+
     text = f"Select /get_current to receive a list of all ongoing classes in the selected hall.\n\n"
     text += f"Select /get_vacancy to receive a list of all current vacant rooms in the selected hall\n\n"
     text += f"Select /get_schedule to check the daily schedule for a particular room in your selected hall.\n\n"
+    text += f"Select /set_day to change the day of the week for checking.\n\n"
+    text += f"To change the time in question, type: 'Time: HH:MM in 24hr format'\n\n"
 
     bot.send_message(message.chat.id, text)
     add2log(message.text + " Start Options", message)
@@ -145,10 +160,14 @@ def set_day(message):
     global weekDict
     day = list(weekDict.keys())[list(weekDict.values()).index(message.text[1:])]
     print(day)
-    userDict["cDay"] = day
+    userDict[str(message.chat.id)]["cDay"] = day
+    userDict[str(message.chat.id)]["LastChange"] = time.time()
+    t = userDict[str(message.chat.id)]["cDay"]
+    print(f"__________{t}___________")
+    bot.send_message(message.chat.id, f"Changed day to {message.text[1:]}")
 
 
-@bot.message_handler(commands=["set_Day"])
+@bot.message_handler(commands=["set_day"])
 def send_days(message):
     global weekDict
     sendstr = ""
@@ -170,6 +189,10 @@ def checkHalls(message):
         print(144)
         start(message)
         return
+    if userDict[str(message.chat.id)]["Mode"] == "":
+        print(144)
+        start(message)
+        return
 
     hall = message.text.replace("_", " ")[1:]
     userDict[str(message.chat.id)]["Hall"] = hall
@@ -183,6 +206,12 @@ def checkHalls(message):
         cTime = userDict[str(message.chat.id)]["cTime"]
     except Exception:
         cTime = "Curr"
+
+    if "LastChange" in userDict[str(message.chat.id)]:
+        if time.time() - userDict[str(message.chat.id)]["LastChange"] > (30 * 60) and ((cTime != "Curr") or (cDay != "Curr")):
+            cTime = "Curr"
+            cDay = Curr
+            userDict[str(message.chat.id)]["LastChange"] = time.time()
     
     try:
         mode = userDict[str(message.chat.id)]["Mode"]
@@ -194,8 +223,18 @@ def checkHalls(message):
     with open('userDictionary.json', 'w') as outfile:
             json.dump(userDict, outfile)
 
+    ReadableDay = weekDict[cDay]
+    if len(str(cTime)) < 6: 
+        RTime = "0" + str(cTime) 
+    else: 
+        RTime = str(cTime)
+
+    hrs, mins= RTime[0:2], RTime[2:4]
+
+    ReadableTime = f"{hrs}:{mins}"
+
     if mode == "vacancy":
-        sendStr = f"Vacant rooms in {hall}: \n\n\n"
+        sendStr = f"{ReadableDay} at {ReadableTime}\nVacant rooms in {hall}: \n\n\n"
 
         nextList, inUse = get_info(hall, cDay, cTime)
         if nextList == "Weekend":
@@ -207,7 +246,7 @@ def checkHalls(message):
             for room in nextList:
                 if nextList[room]["Name"] != "None":
                     sendStr += f"{room}:\nEmpty till {nextList[room]['Start'].split(' ')[0]} \n"
-                    sendStr += f"Course: {nextList[room]['Name']}\n\n"
+                    sendStr += f"Next: {nextList[room]['Name']}\n\n"
                 else:
                     sendStr += f"{room}:\nNo more classes today\n\n"
 
@@ -239,7 +278,7 @@ def checkHalls(message):
             return
 
         if inUse:
-            sendStr = f"Ongoing classes in {hall}: \n\n\n"
+            sendStr = f"{ReadableDay} at {ReadableTime}\nOngoing classes in {hall}: \n\n\n"
 
             for room in inUse:
                 sendStr += f"{room}: {inUse[room]['Name']}\n Timing: {inUse[room]['Timing']}\n\n"
@@ -264,9 +303,15 @@ def trial(message):
     try:
         _, __ = int(hrs), int(mins)
     except Exception:
-        bot.send_message(message.chat.id, f"Incorrent Time Format")
+        bot.send_message(message.chat.id, f"Incorrent Time Format\n Press /help for more info")
 
     if (0 <= int(hrs) and int(hrs) <= 24) and (0 <= int(mins) and int(mins) <= 60):
+        cTime = int(hrs + mins + "00")
+        userDict[str(message.chat.id)]["cTime"] = cTime
+        userDict[str(message.chat.id)]["LastChange"] = time.time()
+        bot.send_message(message.chat.id, f"Changed Time to {hrs}:{mins}")
+    else:
+        bot.send_message(message.chat.id, f"Incorrent Time Format")
         
 
     print(hrs, mins)
@@ -319,7 +364,7 @@ def sendReply(message):
 
 
 bot.send_message(CHAT_ID, "Starting")
-bot.send_message(CHAT_ID, "/get_schedule, /get_vacancy, /get_current")
+bot.send_message(CHAT_ID, "/get_schedule, /get_vacancy, /get_current, /set_day")
 
 bot.polling()
 # thread = Thread(target=start_poll)

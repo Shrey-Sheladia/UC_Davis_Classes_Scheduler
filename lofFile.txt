@@ -227,3 +227,19 @@
 15:06:28:   FROM: shreysheladia | /get_current Halls sent
 15:10:26:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
 15:13:19:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
+02:13:07:   FROM: shreysheladia | /get_current Halls sent
+02:15:08:   FROM: shreysheladia | /Young_HallNo ongoing classes in Young Hall
+02:17:11:   FROM: shreysheladia | /Young_Hall Weekend...
+02:18:31:   FROM: shreysheladia | /Young_Hall Weekend...
+02:20:39:   FROM: shreysheladia | /Young_Hall Weekend...
+02:25:03:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
+02:31:11:   FROM: shreysheladia | /get_current Halls sent
+02:31:49:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
+03:32:48:   FROM: shreysheladia | /get_current Halls sent
+03:32:50:   FROM: shreysheladia | /Veihmeyer_Hall Ongoing classes sent
+03:33:17:   FROM: shreysheladia | /get_vacancy Halls sent
+03:33:20:   FROM: shreysheladia | /The_Grove__and_Surge_III_and_No vacant rooms in The Grove  and Surge III and 
+03:37:10:   FROM: shreysheladia | /get_current Halls sent
+03:37:15:   FROM: shreysheladia | /The_Grove_Surge_III_ Ongoing classes sent
+03:37:41:   FROM: shreysheladia | /get_vacancy Halls sent
+03:37:44:   FROM: shreysheladia | /The_Grove_Surge_III_No vacant rooms in The Grove Surge III 
