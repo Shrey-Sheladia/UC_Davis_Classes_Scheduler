@@ -1,0 +1,229 @@
+23:22:57:   FROM: 1376498188 | /get_vacancy Halls sent
+23:22:59:   FROM: 1376498188 | /Shrem_Museum_of_Art Weekend...
+23:23:26:   FROM: 1376498188 | /Storer_HallWeekend...
+23:23:33:   FROM: 1376498188 | /get_schedule Halls sent
+23:23:36:   FROM: 1376498188 | /The_Grove_Surge_IIIRooms sent - Schedule
+23:23:41:   FROM: 1376498188 | /1283
+23:23:46:   FROM: 1376498188 | /1309
+11:26:05:   FROM: 1376498188 | /get_schedule Halls sent
+11:26:08:   FROM: 1376498188 | /Temporary_Classroom_3Rooms sent - Schedule
+11:26:11:   FROM: 1376498188 | /Temporary_Classroom_3_Hall
+11:26:13:   FROM: 1376498188 | /RM03
+11:27:04:   FROM: 1376498188 | /Roesler_HallRooms sent - Schedule
+11:27:30:   FROM: 1376498188 | /66
+12:41:54:   FROM: 1376498188 | /get_schedule Halls sent
+12:43:45:   FROM: 1376498188 | /get_current Halls sent
+12:45:43:   FROM: 1376498188 | /get_current Halls sent
+12:46:11:   FROM: 1376498188 | /get_current Halls sent
+12:47:12:   FROM: 1376498188 | /get_vacancy Halls sent
+12:47:44:   FROM: 1376498188 | /get_vacancy Halls sent
+12:49:00:   FROM: 1376498188 | /get_schedule Halls sent
+12:49:02:   FROM: 1376498188 | /Wright_HallRooms sent - Schedule
+12:49:04:   FROM: 1376498188 | /222
+12:49:07:   FROM: 1376498188 | /get_vacancy Halls sent
+12:50:02:   FROM: 1376498188 | /get_schedule Halls sent
+12:50:04:   FROM: 1376498188 | /Wright_HallRooms sent - Schedule
+12:50:05:   FROM: 1376498188 | /Wright_Hall_Hall
+12:50:10:   FROM: 1376498188 | /get_vacancy Halls sent
+13:06:24:   FROM: 1376498188 | /get_vacancy Halls sent
+13:06:29:   FROM: 1376498188 | /get_vacancy Halls sent
+13:06:35:   FROM: 1376498188 | /Olson_Hall Empty Halls sent
+13:20:45:   FROM: 1376498188 | /get_vacancy Halls sent
+13:22:28:   FROM: 1376498188 | /get_vacancy Halls sent
+13:23:03:   FROM: 1376498188 | /get_vacancy Halls sent
+13:23:05:   FROM: 1376498188 | /Wright_Hall Empty Halls sent
+13:23:11:   FROM: 1376498188 | /get_current Halls sent
+13:24:19:   FROM: 1376498188 | /get_current Halls sent
+13:25:08:   FROM: 1376498188 | /get_current Halls sent
+11:31:19:   FROM: 1376498188 | /Olson_Hall Ongoing classes sent
+11:31:49:   FROM: 1376498188 | /help Start Options
+11:40:51:   FROM: 1376498188 | /get_current Halls sent
+11:40:55:   FROM: 1376498188 | /Tupper_HallNo ongoing classes in Tupper Hall
+11:40:58:   FROM: 1376498188 | /Wickson_Hall Ongoing classes sent
+11:42:49:   FROM: 1656922230 | /get_current Halls sent
+11:42:55:   FROM: 1656922230 | /Meyer_Hall Ongoing classes sent
+11:44:22:   FROM: 1376498188 | /Veihmeyer_Hall Ongoing classes sent
+11:47:09:   FROM: 1376498188 | /Storer_Hall Ongoing classes sent
+11:47:18:   FROM: 1376498188 | /Olson_Hall Ongoing classes sent
+11:58:34:   FROM: 1376498188 | /get_vacancy Halls sent
+11:58:44:   FROM: 1376498188 | /Online_Learning_Activity Empty Halls sent
+11:58:47:   FROM: 1376498188 | /Olson_Hall Empty Halls sent
+11:58:53:   FROM: 1376498188 | /get_current Halls sent
+11:58:58:   FROM: 1376498188 | /Olson_HallNo ongoing classes in Olson Hall
+11:59:05:   FROM: 1376498188 | /The_Grove_Surge_IIINo ongoing classes in The Grove Surge III
+11:59:07:   FROM: 1376498188 | /Voorhies_HallNo ongoing classes in Voorhies Hall
+11:59:08:   FROM: 1376498188 | /Wickson_HallNo ongoing classes in Wickson Hall
+11:59:09:   FROM: 1376498188 | /Veihmeyer_HallNo ongoing classes in Veihmeyer Hall
+11:59:10:   FROM: 1376498188 | /Veihmeyer_HallNo ongoing classes in Veihmeyer Hall
+11:59:10:   FROM: 1376498188 | /Wright_HallNo ongoing classes in Wright Hall
+11:59:17:   FROM: 1376498188 | /Hart_HallNo ongoing classes in Hart Hall
+11:59:19:   FROM: 1376498188 | /Chemistry_AnnexNo ongoing classes in Chemistry Annex
+11:59:20:   FROM: 1376498188 | /King_HallNo ongoing classes in King Hall
+11:59:29:   FROM: 1376498188 | /get_schedule Halls sent
+12:06:10:   FROM: 1376498188 | /get_current Halls sent
+12:06:13:   FROM: 1376498188 | /ArtNo ongoing classes in Art
+12:06:18:   FROM: 1376498188 | /get_vacancy Halls sent
+12:06:21:   FROM: 1376498188 | /Art Empty Halls sent
+12:06:39:   FROM: 1376498188 | /get_schedule Halls sent
+12:06:43:   FROM: 1376498188 | /ArtRooms sent - Schedule
+12:06:46:   FROM: 1376498188 | /204
+12:34:30:   FROM: 5708703804 | /start Start Options
+12:34:39:   FROM: 5708703804 | /get_vacancy Halls sent
+12:34:47:   FROM: 5708703804 | /Art Empty Halls sent
+13:49:20:   FROM: 1376498188 | /get_schedule Halls sent
+13:49:24:   FROM: 1376498188 | /HuntRooms sent - Schedule
+13:49:27:   FROM: 1376498188 | /100
+18:08:46:   FROM: 1376498188 | /get_current Halls sent
+18:08:51:   FROM: 1376498188 | /TerceroNo ongoing classes in Tercero
+18:12:20:   FROM: 1376498188 | /get_current Halls sent
+18:17:28:   FROM: shreysheladia | /get_schedule Halls sent
+18:19:41:   FROM: shreysheladia | /get_current Halls sent
+18:19:47:   FROM: shreysheladia | /get_schedule Halls sent
+18:20:32:   FROM: shreysheladia | /start Start Options
+18:21:52:   FROM: shreysheladia | /get_current Halls sent
+18:22:26:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
+18:23:54:   FROM: shreysheladia | /get_current Halls sent
+18:26:54:   FROM: shreysheladia | /get_current Halls sent
+18:26:56:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
+18:27:17:   FROM: shreysheladia | /Wyatt_Pavilion_ThNo ongoing classes in Wyatt Pavilion Th
+18:27:20:   FROM: shreysheladia | /Wickson_Hall Ongoing classes sent
+18:28:14:   FROM: shreysheladia | /get_current Halls sent
+18:28:15:   FROM: shreysheladia | /Voorhies_HallNo ongoing classes in Voorhies Hall
+18:28:18:   FROM: shreysheladia | /Temporary_Classroom_1No ongoing classes in Temporary Classroom 1
+18:28:20:   FROM: shreysheladia | /Hart_Hall Ongoing classes sent
+18:28:32:   FROM: shreysheladia | /Hart_Hall Ongoing classes sent
+18:29:22:   FROM: None | /Meyer_Hall Start Options
+18:29:30:   FROM: None | /get_current Halls sent
+18:31:25:   FROM: None | /get_vacancy Halls sent
+18:32:01:   FROM: None | /start Start Options
+18:32:14:   FROM: None | /get_current Halls sent
+18:34:33:   FROM: None | /get_vacancy Halls sent
+18:34:36:   FROM: None | /Vineyard Empty Halls sent
+18:37:39:   FROM: None | /Vineyard Empty Halls sent
+18:37:45:   FROM: None | /start Start Options
+18:40:04:   FROM: None | /start Start Options
+18:40:25:   FROM: None | /start Start Options
+18:40:27:   FROM: None | /get_schedule Halls sent
+18:40:38:   FROM: None | /VineyardRooms sent - Schedule
+18:40:40:   FROM: None | /Vineyard_Hall
+18:41:29:   FROM: None | /start Start Options
+18:41:32:   FROM: None | /get_current Halls sent
+18:44:34:   FROM: None | /Young_Hall Start Options
+18:44:37:   FROM: None | /get_current Halls sent
+18:44:46:   FROM: None | /Tupper_Hall Start Options
+18:44:53:   FROM: None | /get_current Halls sent
+18:44:55:   FROM: None | /Tupper_Hall Start Options
+18:46:08:   FROM: shreysheladia | /get_current Halls sent
+18:46:10:   FROM: shreysheladia | /West_Village_Viridian_Bldg_4 Start Options
+18:47:36:   FROM: shreysheladia | /West_Village_Viridian_Bldg_4 Start Options
+18:48:42:   FROM: shreysheladia | /get_vacancy Halls sent
+18:48:44:   FROM: shreysheladia | /Tupper_Hall Start Options
+18:51:07:   FROM: shreysheladia | /get_vacancy Halls sent
+18:51:23:   FROM: shreysheladia | /Student_Community_Center Start Options
+18:51:57:   FROM: shreysheladia | /get_schedule Halls sent
+18:51:58:   FROM: shreysheladia | /Wellman_HallRooms sent - Schedule
+18:51:59:   FROM: shreysheladia | /230
+18:52:03:   FROM: shreysheladia | /get_schedule Halls sent
+18:52:05:   FROM: shreysheladia | /get_current Halls sent
+18:52:07:   FROM: shreysheladia | /Vet_Med_3ANo ongoing classes in Vet Med 3A
+18:52:12:   FROM: shreysheladia | /Veihmeyer_Hall Ongoing classes sent
+18:52:32:   FROM: None | /Tupper_Hall Start Options
+18:52:34:   FROM: None | /get_current Halls sent
+18:52:37:   FROM: None | /Shrem_Museum_of_ArtNo ongoing classes in Shrem Museum of Art
+18:52:40:   FROM: None | /Hoagland_Hall Ongoing classes sent
+18:54:03:   FROM: shreysheladia | /get_current Halls sent
+18:54:05:   FROM: shreysheladia | /Western_Ctr_for_Agric_EquipmntNo ongoing classes in Western Ctr for Agric Equipmnt
+19:53:03:   FROM: shreysheladia | /Western_Ctr_for_Agric_EquipmntNo ongoing classes in Western Ctr for Agric Equipmnt
+08:03:58:   FROM: shreysheladia | /Western_Ctr_for_Agric_EquipmntNo ongoing classes in Western Ctr for Agric Equipmnt
+08:04:07:   FROM: shreysheladia | /Max_Kleiber_Hall Ongoing classes sent
+08:04:19:   FROM: shreysheladia | /get_vacancy Halls sent
+08:04:23:   FROM: shreysheladia | /Max_Kleiber_HallNo vacant rooms in Max Kleiber Hall
+08:04:35:   FROM: shreysheladia | /get_schedule Halls sent
+08:04:38:   FROM: shreysheladia | /Max_Kleiber_HallRooms sent - Schedule
+08:04:40:   FROM: shreysheladia | /3
+18:56:12:   FROM: shreysheladia | /get_current Halls sent
+18:56:33:   FROM: shreysheladia | /get_vacancy Halls sent
+19:00:36:   FROM: shreysheladia | /Veihmeyer_Hall Empty Halls sent
+19:00:42:   FROM: shreysheladia | /Veihmeyer_Hall Empty Halls sent
+19:00:50:   FROM: shreysheladia | /get_current Halls sent
+19:00:53:   FROM: shreysheladia | /Veihmeyer_HallNo ongoing classes in Veihmeyer Hall
+11:08:46:   FROM: shreysheladia | /Veihmeyer_Hall Ongoing classes sent
+11:09:26:   FROM: shreysheladia | /Social_Science__and__Humanities Ongoing classes sent
+11:09:33:   FROM: shreysheladia | /Olson_Hall Ongoing classes sent
+13:56:14:   FROM: None | /get_current Halls sent
+13:56:28:   FROM: None | /Everson_Hall Ongoing classes sent
+13:56:59:   FROM: None | /get_schedule Halls sent
+13:57:07:   FROM: None | /Everson_HallRooms sent - Schedule
+13:57:10:   FROM: None | /226
+13:57:14:   FROM: None | /176
+14:34:06:   FROM: None | /Olson_HallRooms sent - Schedule
+14:34:09:   FROM: None | /105
+14:34:39:   FROM: None | /get_vacancy Halls sent
+14:34:44:   FROM: None | /Olson_Hall Empty Halls sent
+14:35:21:   FROM: None | /Everson_Hall Empty Halls sent
+11:26:46:   FROM: None | /get_schedule Halls sent
+11:26:46:   FROM: None | /Olson_HallRooms sent - Schedule
+11:26:46:   FROM: None | /241
+11:26:46:   FROM: None | /get_current Halls sent
+11:26:46:   FROM: shreysheladia | /get_vacancy Halls sent
+11:27:04:   FROM: shreysheladia | /get_vacancy Halls sent
+11:27:07:   FROM: shreysheladia | /Teaching_and_Learning_Complex Empty Halls sent
+11:29:11:   FROM: shreysheladia | /get_current Halls sent
+11:29:14:   FROM: shreysheladia | /Teaching_and_Learning_Complex Ongoing classes sent
+11:29:45:   FROM: shreysheladia | /get_vacancy Halls sent
+11:29:50:   FROM: shreysheladia | /Teaching_and_Learning_Complex Empty Halls sent
+12:24:41:   FROM: shreysheladia | /Teaching_and_Learning_Complex Empty Halls sent
+12:24:44:   FROM: shreysheladia | /get_current Halls sent
+12:24:50:   FROM: shreysheladia | /Teaching_and_Learning_Complex Ongoing classes sent
+16:14:36:   FROM: None | /Teaching_and_Learning_Complex Start Options
+16:14:42:   FROM: None | /get_vacancy Halls sent
+16:14:59:   FROM: None | /Teaching_and_Learning_Complex Empty Halls sent
+16:32:25:   FROM: shreysheladia | /Teaching_and_Learning_Complex Ongoing classes sent
+10:43:08:   FROM: None | /get_vacancy Halls sent
+10:43:08:   FROM: shreysheladia | /Teaching_and_Learning_Complex Ongoing classes sent
+10:44:33:   FROM: shreysheladia | /get_vacancy Halls sent
+10:44:37:   FROM: shreysheladia | /Teaching_and_Learning_Complex Empty Halls sent
+10:44:49:   FROM: shreysheladia | /get_current Halls sent
+10:45:00:   FROM: shreysheladia | /Olson_Hall Ongoing classes sent
+10:45:15:   FROM: shreysheladia | /get_schedule Halls sent
+10:45:19:   FROM: shreysheladia | /Storer_HallRooms sent - Schedule
+10:45:21:   FROM: shreysheladia | /1344
+10:53:14:   FROM: None | /get_current Halls sent
+10:53:20:   FROM: None | /Olson_Hall Ongoing classes sent
+10:53:30:   FROM: None | /get_schedule Halls sent
+10:53:35:   FROM: None | /Olson_HallRooms sent - Schedule
+10:53:38:   FROM: None | /250
+13:34:33:   FROM: shreysheladia | /get_vacancy Halls sent
+13:34:40:   FROM: shreysheladia | /Hunt Empty Halls sent
+16:20:27:   FROM: shreysheladia | /West_Village_Viridian_Bldg_4 Empty Halls sent
+16:20:30:   FROM: shreysheladia | /get_schedule Halls sent
+16:20:33:   FROM: shreysheladia | /West_Village_Viridian_Bldg_4Rooms sent - Schedule
+16:20:35:   FROM: shreysheladia | /1103
+13:29:31:   FROM: shreysheladia | /1103
+13:52:16:   FROM: shreysheladia | /get_current Halls sent
+13:52:19:   FROM: shreysheladia | /get_vacancy Halls sent
+13:52:24:   FROM: shreysheladia | /Hutchison_Hall Empty Halls sent
+13:52:30:   FROM: shreysheladia | /Hunt Empty Halls sent
+15:07:43:   FROM: shreysheladia | /get_current Halls sent
+15:07:43:   FROM: shreysheladia | /Hunt Ongoing classes sent
+13:28:49:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
+12:47:17:   FROM: None | /get_schedule Halls sent
+12:47:17:   FROM: None | /get_current Halls sent
+12:47:33:   FROM: shreysheladia | /get_vacancy Halls sent
+12:47:38:   FROM: shreysheladia | /Everson_Hall Empty Halls sent
+13:22:05:   FROM: shreysheladia | /Everson_Hall Empty Halls sent
+11:47:06:   FROM: shreysheladia | /Everson_Hall Empty Halls sent
+11:47:49:   FROM: shreysheladia | /get_schedule Halls sent
+11:48:44:   FROM: shreysheladia | /Cruess_HallRooms sent - Schedule
+11:48:49:   FROM: shreysheladia | /1003
+12:09:55:   FROM: shreysheladia | /get_current Halls sent
+12:09:59:   FROM: shreysheladia | /ArtNo ongoing classes in Art
+12:10:50:   FROM: shreysheladia | /get_schedule Halls sent
+12:10:54:   FROM: shreysheladia | /ArtRooms sent - Schedule
+12:10:56:   FROM: shreysheladia | /204
+12:11:12:   FROM: shreysheladia | /get_current Halls sent
+12:11:16:   FROM: shreysheladia | /Art Ongoing classes sent
+12:15:36:   FROM: shreysheladia | /get_schedule 10 Halls sent
+15:06:28:   FROM: shreysheladia | /get_current Halls sent
+15:10:26:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
+15:13:19:   FROM: shreysheladia | /Young_Hall Ongoing classes sent
