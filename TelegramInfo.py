@@ -49,9 +49,8 @@ for i in range(len(halls)):
 
 
 
-# API_KEY = "5162485703:AAFzHyu3XWOr8AJ6iAmVdt9YHC7DbxQW0YI" #! Raspberry PI
-# API_KEY = "5142393526:AAHHUyULXlqobU-ofPZK40pvjnigcX8lh9g" #! Sec Sys
-API_KEY = "5791318143:AAF2Nt9UP3tTApNv0gsueL2tALpS_WAeiGM" #! Classroom Search
+
+API_KEY = "SET API KEY" #! Classroom Search
 
 CHAT_ID = 1376498188
 bot = telebot.TeleBot(API_KEY)
