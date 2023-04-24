@@ -52,7 +52,7 @@ for i in range(len(halls)):
 
 API_KEY = "SET API KEY" #! Classroom Search
 
-CHAT_ID = 1376498188
+CHAT_ID = "Set_Chat_ID"
 bot = telebot.TeleBot(API_KEY)
 
 
